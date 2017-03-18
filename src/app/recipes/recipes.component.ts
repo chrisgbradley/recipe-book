@@ -7,6 +7,7 @@ import { Recipe } from './recipe';
   templateUrl: './recipes.component.html'
 })
 export class RecipesComponent implements OnInit {
+  recipe: Recipe;
 
   constructor() { }
 
