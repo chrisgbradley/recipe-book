@@ -21,7 +21,7 @@ import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.comp
     RecipeItemComponent,
     RecipeDetailsComponent,
     ShoppingListComponent,
-    ShoppingListAddComponent
+    ShoppingListAddComponent,
   ],
   imports: [
     BrowserModule,
