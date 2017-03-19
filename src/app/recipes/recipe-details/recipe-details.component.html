@@ -20,6 +20,8 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
-    
+    <ul class="list-group">
+      <li *ngFor = "let item of selectedRecipe?.ingredients">{{ item.amount }} -- {{ item.name }}</li>
+    </ul>
   </div>
 </div>
